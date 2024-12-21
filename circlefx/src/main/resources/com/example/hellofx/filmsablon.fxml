@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="stackpanefilm1" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="your.package.name.filmsablonu">
+    <children>
+        <HBox prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <ImageView fx:id="afisfilm1" fitHeight="300.0" fitWidth="449.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Downloads/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_.jpg" />
+                    </image>
+                </ImageView>
+                <VBox fx:id="vboxfilm1" prefHeight="495.0" prefWidth="611.0">
+                    <children>
+                        <Label prefHeight="30.0" prefWidth="264.0" text="Ad:" />
+                        <Label fx:id="filmad1" prefHeight="30.0" prefWidth="256.0" />
+                        <Label prefHeight="30.0" prefWidth="258.0" text="Tür:" />
+                        <Label fx:id="türad1" prefHeight="30.0" prefWidth="270.0" />
+                        <Label prefHeight="30.0" prefWidth="277.0" text="Yönermen:" />
+                        <Label fx:id="kiralayanad1" prefHeight="30.0" prefWidth="270.0" />
+                        <Label prefHeight="30.0" prefWidth="277.0" text="Yayın tarihi:" />
+                        <Label prefHeight="30.0" prefWidth="277.0" />
+                        <Label prefHeight="30.0" prefWidth="277.0" text="Kiralayan ID :" />
+                        <Label prefHeight="30.0" prefWidth="277.0" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <Button fx:id="buttonfilm1" mnemonicParsing="false" opacity="0.0" prefHeight="373.0" prefWidth="500.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+</StackPane>
